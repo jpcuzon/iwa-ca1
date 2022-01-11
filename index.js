@@ -60,7 +60,7 @@ router.post('/post/json', function(req, res) {
         XMLtoJSON('FunAndGames.xml', function (err, result){
             if (err) throw (err);
 
-            result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
+            result.selection.platform[obj.sec_n].game.push({'title': obj.title, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, " "));
 
@@ -93,7 +93,7 @@ router.post('/post/delete', function(req, res){
             console.log(obj.ent);
             console.log(result);
             
-            delete result.menu.section[obj.sec].entry[obj.ent];
+            delete result.selection.platform[obj.sec].game[obj.ent];
 
             JSONtoXML('FunAndGames.xml', result, function(err){
                 if (err) console.log(err);
