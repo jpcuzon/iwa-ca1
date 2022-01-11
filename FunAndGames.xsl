@@ -1,7 +1,7 @@
 <?xml version="1.0"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
-<table id="gameList" border="1" class="indent">
+<table id="menuTable" border="1" class="indent">
     <thead>
         <tr>
             <th>Select</th>
@@ -18,11 +18,8 @@
             </tr>
             <xsl:for-each select="game">
                 <tr id="{position()}">
-                    <xsl:attribute name="pre-order">
-                        <xsl:value-of select="boolean(@pre-order)" />
-                    </xsl:attribute>
-                    <xsl:attribute name="used">
-                        <xsl:value-of select="boolean(@used)" />
+                    <xsl:attribute name="preorder">
+                        <xsl:value-of select="boolean(@preorder)" />
                     </xsl:attribute>
                     <td align="center">
                         <input name="item0" type="checkbox" />
