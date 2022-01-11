@@ -1,78 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<selections>
-    <platform name="PlayStation">
-        <game>
-            <title preorder="true">God Of War: Ragnarok</title>
-            <price>79.99</price>
-        </game>
-        <game>
-            <title>The Last Of Us Part 2</title>
-            <price>49.99</price>
-        </game>
-        <game>
-            <title>Bloodborne: GOTY Edition</title>
-            <price>29.99</price>
-        </game>
-
-    </platform>
-    <platform name="PlayStation VR">
-        <game>
-            <title preorder="true">Moss 2</title>
-            <price>39.99</price>
-        </game>
-        <game>
-            <title>Astro Bot: Rescue Mission</title>
-            <price>29.99</price>
-        </game>
-        <game>
-            <title>Walking Dead: Saints and Sinners</title>
-            <price>29.99</price>
-        </game>
-
-    </platform>
-    <platform name="Xbox">
-        <game>
-            <title preorder="true">Starfield</title>
-            <price>69.99</price>
-        </game>
-        <game>
-            <title>Halo Infinite</title>
-            <price>69.99</price>
-        </game>
-        <game>
-            <title>Forza Motorsport 7</title>
-            <price>29.99</price>
-        </game>
-
-    </platform>
-    <platform name="Switch">
-        <game>
-            <title preorder="true">Zelda:Breath of the Wild 2</title>
-            <price>69.99</price>
-        </game>
-        <game>
-            <title>Animal Crossing</title>
-            <price>59.99</price>
-        </game>
-        <game>
-            <title>Pokemon: Sun and Shield</title>
-            <price>49.99</price>
-        </game>
-
-    </platform>
-    <platform name="PC">
-        <game>
-            <title preorder="true">God Of War (2018)</title>
-            <price>49.99</price>
-        </game>
-        <game>
-            <title>Cyberpunk 2077</title>
-            <price>59.99</price>
-        </game>
-        <game>
-            <title>Red Dead Redemption 2</title>
-            <price>49.99</price>
-        </game>
-
-    </platform>
-</selections>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<selection>
+  <platform name="PlayStation">
+    <game>
+      <title preorder="true">God Of War: Ragnarok</title>
+      <price>79.99</price>
+    </game>
+    <game>
+      <title>The Last Of Us Part 2</title>
+      <price>49.99</price>
+    </game>
+    <game>
+      <title>Bloodborne: GOTY Edition</title>
+      <price>29.99</price>
+    </game>
+    <game>
+      <title>Nier Automata: Game of the YoRHa Edition</title>
+      <price>39.99</price>
+    </game>
+  </platform>
+  <platform name="PlayStation VR">
+    <game>
+      <title preorder="true">Moss 2</title>
+      <price>39.99</price>
+    </game>
+    <game>
+      <title>Astro Bot: Rescue Mission</title>
+      <price>29.99</price>
+    </game>
+    <game>
+      <title>Walking Dead: Saints and Sinners</title>
+      <price>29.99</price>
+    </game>
+  </platform>
+  <platform name="Xbox">
+    <game>
+      <title preorder="true">Starfield</title>
+      <price>69.99</price>
+    </game>
+    <game>
+      <title>Halo Infinite</title>
+      <price>69.99</price>
+    </game>
+    <game>
+      <title>Forza Motorsport 7</title>
+      <price>29.99</price>
+    </game>
+  </platform>
+  <platform name="Switch">
+    <game>
+      <title preorder="true">Zelda:Breath of the Wild 2</title>
+      <price>69.99</price>
+    </game>
+    <game>
+      <title>Animal Crossing</title>
+      <price>59.99</price>
+    </game>
+    <game>
+      <title>Pokemon: Sun and Shield</title>
+      <price>49.99</price>
+    </game>
+  </platform>
+  <platform name="PC">
+    <game>
+      <title preorder="true">God Of War (2018)</title>
+      <price>49.99</price>
+    </game>
+    <game>
+      <title>Cyberpunk 2077</title>
+      <price>59.99</price>
+    </game>
+    <game>
+      <title>Red Dead Redemption 2</title>
+      <price>49.99</price>
+    </game>
+  </platform>
+</selection>

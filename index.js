@@ -60,7 +60,7 @@ router.post('/post/json', function(req, res) {
         XMLtoJSON('FunAndGames.xml', function (err, result){
             if (err) throw (err);
 
-            result.selection.platform[obj.sec_n].game.push({'title': obj.title, 'price': obj.price});
+            result.selection.platform[obj.plat].game.push({'title': obj.title, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, " "));
 
